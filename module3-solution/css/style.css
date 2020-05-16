@@ -1,0 +1,154 @@
+body
+{
+	height: 1000px;
+
+}
+/* Header */
+#header-nav
+{
+	background-color: #D3D3D3;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand /* Restaurant Name*/
+{
+	padding-top: 15px;
+}
+.navbar-brand h1
+{
+	color: #557c3e;
+	font-size: 1.5em;
+	
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+
+}
+
+
+
+
+
+#nav-list
+{
+	margin-top: 5px;
+}
+#nav-list a
+{
+	color:black;
+	text-align: center;
+	background: white;
+	border: 1px solid black;
+	font-size: 20px;
+}
+#nav-list a:hover
+{
+	background: white;
+
+}
+#nav-list a span
+{
+font-size: 20px;
+}
+.text-center
+{
+	clear: both;
+	color: black;
+	font-size: 2.5em;
+	font-style: bolder;
+}
+h3
+{
+	color: black;
+	font-style: bolder;
+	text-align: center;
+	
+	font-size: 2em;
+}
+.container-fluid
+{
+	margin: 30px;
+	font-size: 1.5em;
+
+}
+section
+{
+	
+	background-color: #D3D3D3;
+	border: 1px solid black;
+	box-sizing: border-box;
+	width: 33.33%;
+	
+	
+
+	
+}
+p
+{
+	padding: 10px;
+	text-align: left;
+	height: 80%;
+	
+}
+/* Large Devices Only*/
+@media(min-width: 1200px)
+{
+
+
+}
+/* Medium Devices Only*/
+@media(min-width: 992px) and (max-width:1199px )
+{
+
+}
+/* Small Devices Only*/
+@media(min-width: 768px) and (max-width: 991px )
+{
+
+}
+/* Extra Small Devices Only*/
+@media(max-width: 767px)
+{
+.navbar-brand /* Restaurant Name*/
+{
+	padding-top: 10px;
+	height: 80px;
+}
+.navbar-brand h1
+{
+	padding-top: 10px;
+	font-size: 5vw;
+
+}
+
+
+#bs-example-navbar-collapse-1 a
+{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+#bs-example-navbar-collapse-1 a span
+{
+	font-size: 1.5em;
+	margin-right: 5px;
+	font-weight: bold;
+}
+h3
+{
+	font-size: 1.5em
+}
+
+}
+/*Super Extra small device*/
+@media (max-width: 479px)
+
+{
+.navbar-brand h1
+{
+padding-top: 5px;
+font-size: 6vw;
+}
+
