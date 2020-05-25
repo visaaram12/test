@@ -235,6 +235,8 @@ h3.menu-item-title {
   .container .jumbotron {
     background: url('../images/jumbotron_1200.jpg') no-repeat;
     height: 675px;
+    box-shadow: 0 0 50px #3F0C1F;
+    border: 2px solid #3F0C1F;
   }
 }
 
@@ -253,6 +255,9 @@ h3.menu-item-title {
   .container .jumbotron {
     background: url('../images/jumbotron_992.jpg') no-repeat;
     height: 558px;
+    box-shadow: 0 0 50px #3F0C1F;
+    border: 2px solid #3F0C1F;
+
   }
   /* End Home Page */
 }
@@ -263,6 +268,8 @@ h3.menu-item-title {
   .container .jumbotron {
     background: url('../images/jumbotron_768.jpg') no-repeat;
     height: 432px;
+    box-shadow: 0 0 50px #3F0C1F;
+    border: 2px solid #3F0C1F;
   }
   /* End Home Page */
 }
